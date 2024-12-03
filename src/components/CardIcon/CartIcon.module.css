@@ -1,0 +1,39 @@
+.cart_logo {
+  position: relative;
+  width: 44px;
+}
+
+.items_number {
+  position: absolute;
+  top: 6px;
+  left: -1px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #339933;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+
+  .cart_logo {
+    width: 25px;
+  }
+  
+  .items_number {
+    top: 12px;
+    left: -2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
