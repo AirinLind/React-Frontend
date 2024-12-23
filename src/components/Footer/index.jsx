@@ -1,6 +1,6 @@
 import s from './Footer.module.css'
 import { ReactComponent as Telegram } from '../../assets/ic-tg.svg'
-import { ReactComponent as Vk } from '.../../assets/ic-vk.svg'
+import { ReactComponent as Vk } from '../../assets/ic-vk.svg'
 
 function Footer() {
   return(
